@@ -2,10 +2,10 @@
 #include <string.h>
 
 void reverse(char* str) {
-    int len = strlen(str);
+    int len = strlen(str); // 8
     char temp;
-    char* p1 = str;
-    char* p2 = str + len - 1;
+    char* p1 = str; 
+    char* p2 = str + len - 1; // str + 7
     while (p1 < p2) {
         temp = *p1;
         *p1 = *p2;
