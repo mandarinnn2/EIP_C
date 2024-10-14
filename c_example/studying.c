@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// BankAcc 구조체
 typedef struct {
 	int accNum;
 	double bal;
@@ -15,7 +16,9 @@ double sim_pow(double base, int year) {
 	return r;
 }
 
+// BankAcc 구조체의 포인터를 받아 해당 구조체 멤버 초기화
 void initAcc(BankAcc* acc, int x, double y) {
+	// 포인터 acc가 가리키
 	acc->accNum = x;
 	acc->bal = y;
 }

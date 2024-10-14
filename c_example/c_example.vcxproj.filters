@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="studying.c">
+    <ClCompile Include="issupper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
