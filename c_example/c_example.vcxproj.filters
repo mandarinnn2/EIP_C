@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="issupper.c">
+    <ClCompile Include="switch_case.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
