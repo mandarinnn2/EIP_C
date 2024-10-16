@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="struct_ex.c">
+    <ClCompile Include="perfect_num.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
